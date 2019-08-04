@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import color_distinguish as cd
 
-c_th = 2000
+c_th = 3000
 path = 'test_data/test_myroom.jpg'
 image = cv2.imread(path)
 mark_img = cd.color_distinguish(image)
