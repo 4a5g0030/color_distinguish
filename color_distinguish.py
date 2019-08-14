@@ -13,7 +13,7 @@ class color_distinguish:
         self.upper_green = np.array([77, 255, 255])
         # define range of red color in HSV
         self.lower_red = np.array([0, 70, 50])
-        self.upper_red = np.array([0, 255, 255])
+        self.upper_red = np.array([5, 255, 255])
         self.lower_red2 = np.array([170, 70, 50])
         self.upper_red2 = np.array([180, 255, 255])
 
